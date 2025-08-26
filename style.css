@@ -1,3 +1,13 @@
 body{
     text-align: center;
+    background-color: rgb(52, 74, 126);
+    color: black;
+}
+button{
+    color: black;
+    background-color: aliceblue;
+}
+button:hover{
+    color: aliceblue;
+    background-color: black;
 }
