@@ -1,7 +1,11 @@
 body{
-    text-align: center;
-    background-color: rgb(52, 74, 126);
-    color: black;
+    background-color: rgb(27, 76, 200);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    margin: 0;
 }
 button{
     color: black;
@@ -10,4 +14,28 @@ button{
 button:hover{
     color: aliceblue;
     background-color: black;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 35px #18570d;
+    text-align: center;
+
+}
+button{
+    width: 90%;
+    height: 25px;
+    background-color: rgb(166, 192, 123);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 11px;
+    cursor: pointer;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border: 5px inset rgb(77, 158, 196);
+    border-radius: 11px;
+    box-shadow: 0 0 10px;
 }
