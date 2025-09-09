@@ -8,7 +8,7 @@ function imc(){
     ('resultado');
 
     const valorIMC = (peso/(altura*altura)).toFixed(1);
- let classificacao = "";
+    let classificacao = "";
 
     if (valorIMC < 18.5){
         classificacao = "abaixo do peso";
@@ -19,7 +19,7 @@ function imc(){
     }else{
         classificacao = "Obesidade"
     }
-    resultado.textContent = `${nome} seu IMC é ${valorIMC}!`;
+    resultado.textContent = `${nome} seu imc é ${valorIMC} sua classificação é ${classificacao}!`;
 }
    
 calcular.addEventListener('click',imc);
